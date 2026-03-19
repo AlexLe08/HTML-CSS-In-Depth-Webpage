@@ -1,0 +1,186 @@
+body {
+  background-color: #edefee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 1020px) {
+  body {
+    margin: 0;
+  }
+  section {
+    display: block;
+  }
+
+  header > a > img.logo {
+    margin-right: 0;
+  }
+
+  header > a > img.text-logo {
+    margin-left: 0;
+    width: 150px;
+    height: 19px;
+  }
+
+  footer {
+    display: flex;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+  }
+
+  footer .footer-section:nth-child(2) {
+  align-content: flex-start;
+    }
+}
+
+@media (min-width: 1021px) {
+  body {
+    margin: 3rem 5% 0rem;
+  }
+  section {
+    display: flex;
+  }
+
+  header > a > img.logo {
+    margin-right: 1rem;
+  }
+
+  header > a > img.text-logo {
+    margin-left: 1rem;
+  }
+
+  nav {
+  border: 0 solid;
+  border-radius: 20px;
+}
+
+  footer {
+    border-top-style: 0 solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    }
+
+    footer .footer-section:nth-child(2) {
+  align-content: flex-end;
+}
+}
+
+h1 {
+  font-size: 2rem;
+   color:#ffffff;
+}
+
+h2 {
+  font-size: 1rem;
+  color: #d0604c;
+}
+
+header > a {
+  display: flex;
+  align-items: center;
+}
+
+header > a > img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  width: 140px;
+  height: 95px;
+}
+
+header > a > img.text-logo {
+  width: 190px;
+  height: 23px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding-left: 0;
+}
+
+nav {
+  background-color: darkolivegreen;
+      nav {
+  padding: 10px;
+  margin: 10px 0;
+}
+}
+
+nav li {
+  display: inline-block;
+  margin: 1rem 3rem;
+}
+
+nav li:hover {
+  margin: 0.8rem 2.8rem;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+nav li a:hover {
+  font-size: 1.4rem;
+  color: #d0604c;
+  text-decoration: underline;
+}
+
+article {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  background-color: #f2e0d2;
+  padding: 1rem;
+  border-style: 0 solid;
+  border-radius: 20px;
+  margin: 10px;
+  align-content: center;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+article.promo {
+  background-image: url("Hair-Day-posts/braided-crown.jpg");
+  height: auto;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  color:#ffffff;
+}
+
+article img {
+    display: flex;
+    align-self: center;
+  width: 250px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+article p {
+    flex-grow: 2;
+}
+
+article a {
+    align-self: self-start;
+}
+
+footer {
+      background-color: darkolivegreen;
+}
+
+
+footer div {
+  flex: 1;
+}
+
+
