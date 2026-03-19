@@ -1,3 +1,17 @@
+## Alexander's Portfolio Site for Coursera's HTML and CSS In Depth Course
+If you're looking at this to peer review, or are just a curious sort, these are few things I wanted to list here to mention a few points of how I decided to do all this:
+
+- I did not feel CSS animations were necessary and would be distracting in most amounts. That said, I did use pseudo classes to change text color on hover of the nav links for a small effect I felt was not distracting.
+
+- I included @media breakpoints for a little extra challenge, an attempt at making the design viewable on both mobile like views and desktop as well. Due to mobile view, you won't see the pseudo class text color change I did in this view.
+
+- I wrapped the main logo, the one in the header, in an anchor tag, as usually company sites use their main logo as a home link as well. None of the links go anywhere as its a fictional client, but nice to have.
+
+
+
+
+## The below is just my copy paste of Coursera's instructions for the project + grading for refernce for myself, though whoever is reading this could use it too
+
 ## Requirements for this webpage:
 
 The web page should have the company logo at the top of the page ​with a navigation menu underneath. ​The main content of the page should be below the navigation menu. 
