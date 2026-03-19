@@ -5,6 +5,8 @@ If you're looking at this to peer review, or are just a curious sort, these are 
 
 - I included @media breakpoints for a little extra challenge, an attempt at making the design viewable on both mobile like views and desktop as well. Due to mobile view, you won't see the pseudo class text color change I did in this view.
 
+- If you want to check out mobile view in addition, open inspect tools for your browser and look for the toggle device toolbar, can also google how to do this, its just one button to find. Its really helpful to utilize often for responsive design.
+
 - I wrapped the main logo, the one in the header, in an anchor tag, as usually company sites use their main logo as a home link as well. None of the links go anywhere as its a fictional client, but nice to have.
 
 
